@@ -1,0 +1,5 @@
+.user:hover .list {
+  opacity: 1;
+  top: 100%;
+  display: block;
+}
