@@ -7,3 +7,6 @@ img {
   user-select: none;
   -webkit-user-drag: none;
 }
+body {
+  background-color: #ddd;
+}
