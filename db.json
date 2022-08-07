@@ -1,14 +1,14 @@
 {
   "results": [
     {
-      "0": {
-        "title": "God of war",
-        "image": "https://images5.alphacoders.com/410/410051.jpg"
-      },
-      "1": {
-        "title": "Red dead redemtion 2",
-        "image": "https://preview.redd.it/fdeoyi5ulmd21.jpg?auto=webp&s=b08e46bede7e93627d1410509e3423c1a8cf6619"
-      }
+      "id": 1,
+      "title": "God of war",
+      "image": "https://images5.alphacoders.com/410/410051.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Red dead redemtion 2",
+      "image": "https://preview.redd.it/fdeoyi5ulmd21.jpg?auto=webp&s=b08e46bede7e93627d1410509e3423c1a8cf6619"
     }
   ]
 }
