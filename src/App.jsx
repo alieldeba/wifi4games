@@ -1,5 +1,16 @@
-import Header from "./layouts/Header"
+import { Routes, Route } from "react-router-dom";
+import Header from "./layouts/Header";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
+  );
 }

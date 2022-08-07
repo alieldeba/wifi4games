@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-white">
+    <header className="bg-white drop-shadow-sm">
       <div className="container">
         <div className="flex justify-between items-center h-[56px] relative">
           <div className="user">
@@ -16,9 +16,10 @@ export default function Header() {
               <li className="cursor-pointer">Log out</li>
             </ul>
           </div>
-          <ul className="flex items-center gap-5 h-full">
-            <li className="cursor-pointer">Games</li>
-            <li className="cursor-pointer">Sign up</li>
+          <ul className="flex items-center h-full">
+            <li className="cursor-pointer mr-5">Home</li>
+            <li className="cursor-pointer mr-5">Games</li>
+            <li className="cursor-pointer mr-5">Sign up</li>
             <li className="cursor-pointer">Sign in</li>
           </ul>
         </div>
