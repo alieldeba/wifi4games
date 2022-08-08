@@ -10,12 +10,21 @@ import { setApi } from "./futures/gamesSlice";
 export default function App() {
   const dispatch = useDispatch();
 
-  useEffect(() => {
+  function getGames() {
     axios
       .get("https://my-json-server.typicode.com/alieldeba/wifi4games/results/")
       .then((response) => {
         dispatch(setApi(response.data));
+        // console.log(response.data);
       });
+    // let api = "https://my-json-server.typicode.com/alieldeba/wifi4games/results/";
+    // let res = await fetch(api);
+    // let data = res.json();
+    // dispatch(setApi(data));
+  }
+
+  useEffect(() => {
+    getGames();
   }, []);
 
   return (
