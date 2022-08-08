@@ -5,7 +5,7 @@ export default function GameCard(props) {
         src={props.data.image}
         loading="lazy"
         alt={props.data.title}
-        className="w-full h-48 rounded-t-md object"
+        className="w-full h-48 rounded-t-md object-fit"
       />
       <div className="flex items-center mt-2 pt-3 ml-4 mr-2"></div>
       <div className="pt-3 ml-4 mr-2 mb-3">
