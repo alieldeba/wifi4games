@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="bg-white drop-shadow-sm">
@@ -17,13 +19,19 @@ export default function Header() {
             </ul>
           </div>
           <ul className="flex items-center h-full">
-            <li className="cursor-pointer mr-5">Home</li>
-            <li className="cursor-pointer mr-5">Games</li>
-            <li className="cursor-pointer mr-5">Sign up</li>
-            <li className="cursor-pointer">Sign in</li>
+            <li className="cursor-pointer mr-5">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="cursor-pointer mr-5">
+              <Link to="/games">Games</Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="/signin">Sign in</Link>
+            </li>
           </ul>
         </div>
       </div>
     </header>
   );
 }
+
